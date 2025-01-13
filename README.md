@@ -71,7 +71,9 @@ The game ends when either the player dies or the boss is defeated. This is manag
 # Environment, UI, Animation and Audio
 
 ## Environment
+
 ![Tilemaps]()
+
 The game world is built using three tilemaps built using different tile palettes:
 - Floor Tilemap: the main shape of the level, it uses a composite tilemap collider.
 - Decor Tilemap: a tilemap for decorative objects, which doesn't have a collider.
@@ -79,12 +81,14 @@ The game world is built using three tilemaps built using different tile palettes
 - Obstacle Tilemap: like the decor tilemap, but with a tilemap collider. Collisions are ignored with enemies, but not with the player.
 
 ## UI
+
 ![UI]()
+
 The UI has a health bar as well as a score counter, which are managed in the PlayerCharacter script. Once the double jump and fight abilities are unlocked, two items will appear under the health bar signaling their availability. The text signaling the shop items's price is hidden until the player is in contact with them. Finally, there are two different game over screens, which are shown depending on whether the player succeeds or is defeated.
 
 ## Animation
-![Animation]()
-The animation in this project is relatively complex. Here we leave the animators for the player, a boss and an enemy. The animator for the door is similar to the enemy's, without the running state, and the animator for the Shopkeeper uses a single animation on loop.
+
+The animation in this project is relatively complex. Here we leave the animators for the player, a boss and an enemy. The animator for the door is similar to the enemy's, without the running state, and the animator for the Shopkeeper uses a single animation on loop. I examine the animators in more detail in the video.
 
 ## Audio
 There are three different audio mixers: SFX, Ambience and Soundtrack. The Soundtrack Audio Source is in the Game Manager, and it plays a song distorted to sound low fidelity. The Ambience tracks are tied to each area, and are activated and deactivated on entering and exit the area. The SFX are tied to the player and the enemies, representing sounds for being hurt, attacking, jumping, recovering health, etc. 
