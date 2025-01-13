@@ -4,7 +4,7 @@ This project is a prototype of a 2D game. Inspired by metroidvanias, the player 
 
 You can check this video for an overview of the project, or continue reading below
 
-![Video](https://www.youtube.com/watch?v=A3i5rnVriFU)
+https://www.youtube.com/watch?v=A3i5rnVriFU
 
 # Game Mechanics
 
