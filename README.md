@@ -68,7 +68,7 @@ The background is divided in four layers, which are managed by the ![BackgroundP
 ![GameOverScreen]()
 The game ends when either the player dies or the boss is defeated. This is managed by the ![EndGame]() script in the Game Manager, which receives its events from either the player or the boss dying, and activates the corresponding end screen before closing the game.
 
-# Environment, UI and animation
+# Environment, UI, Animation and Audio
 
 ## Environment
 ![Tilemaps]()
@@ -85,6 +85,9 @@ The UI has a health bar as well as a score counter, which are managed in the Pla
 ## Animation
 ![Animation]()
 The animation in this project is relatively complex. Here we leave the animators for the player, a boss and an enemy. The animator for the door is similar to the enemy's, without the running state, and the animator for the Shopkeeper uses a single animation on loop.
+
+## Audio
+There are three different audio mixers: SFX, Ambience and Soundtrack. The Soundtrack Audio Source is in the Game Manager, and it plays a song distorted to sound low fidelity. The Ambience tracks are tied to each area, and are activated and deactivated on entering and exit the area. The SFX are tied to the player and the enemies, representing sounds for being hurt, attacking, jumping, recovering health, etc. 
 
 
 # Game Design
