@@ -97,12 +97,28 @@ The UI has a health bar as well as a score counter, which are managed in the Pla
 
 ## Animation
 
-The animation in this project is relatively complex. Here we leave the animators for the player, a boss and an enemy. The animator for the door is similar to the enemy's, without the running state, and the animator for the Shopkeeper uses a single animation on loop. I examine the animators in more detail in the video.
+There animators for the player, the different types of enemies, and the boss. The animator for the door is like an enemys but without the running state, and the animator for the Shopkeeper uses a single animation on loop. I examine the animators in more detail in the video.
 
 ## Audio
+
 There are three different audio mixers: SFX, Ambience and Soundtrack. The Soundtrack Audio Source is in the Game Manager, and it plays a song distorted to sound low fidelity. The Ambience tracks are tied to each area, and are activated and deactivated on entering and exit the area. The SFX are tied to the player and the enemies, representing sounds for being hurt, attacking, jumping, recovering health, etc. 
 
 
 # Game Design
 
 The game is designed so that the player starts on a simple area, with a slow enemy and readily available health to teach them the main mechanics. The player can pick up 50$ from this platforming challenge, learning about invisible platforms as well. After this, the player will go to the shop and realize they have enough money to buy the double jump, which unlocks most of the map. They may try to go to the right, but they'll find their progress barred by a door. Going to the far left of the map will reveal a more challenging platforming area, which has enough money to buy the fight ability. Once the fight ability is unlocked, the player may break down the door and enter the arena to fight the boss.
+
+# Assets Used
+
+All sprites from craftpix.net
+
+Audio:
+- 8Bit Music - 062022 by GWriterStudio https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623
+- 8Bit Sfx by Little Robot Sound Factory https://assetstore.unity.com/packages/audio/sound-fx/8-bit-sfx-32831
+- Damage Sounds (Male) - NPC/Player Audio Pack by VoiceBosch https://assetstore.unity.com/packages/audio/sound-fx/voices/damage-sounds-male-npc-player-audio-pack-285385
+- FREE Casual Game SFX Pack by Dustyroom https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+- Footsteps - Essentials by Nox_Sound https://assetstore.unity.com/packages/audio/sound-fx/foley/footsteps-essentials-189879
+- Free Deadly Kombat by Daniel SoundsGood https://assetstore.unity.com/packages/audio/sound-fx/free-deadly-kombat-228835
+- Heavy 8-bit Explosions Sounds by Levi Vilas Boas https://assetstore.unity.com/packages/audio/sound-fx/heavy-8-bit-explosions-sounds-289649
+- RPG Essentials Sound Effects - FREE! by leohpaz https://assetstore.unity.com/packages/audio/sound-fx/rpg-essentials-sound-effects-free-227708
+- Nature - Essentials by Nox_Sound https://assetstore.unity.com/packages/audio/ambient/nature/nature-essentials-208227
