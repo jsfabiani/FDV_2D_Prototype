@@ -2,6 +2,10 @@
 
 This project is a prototype of a 2D game. Inspired by metroidvanias, the player must traverse the level, earning points (money) to buy abilities that unlock more parts of the level. Once all abilities are unlocked, the player is free to face the boss and end the game.
 
+You can check this video for an overview of the project, or continue reading below
+
+![Video](https://www.youtube.com/watch?v=A3i5rnVriFU)
+
 # Game Mechanics
 
 ## Player Character
