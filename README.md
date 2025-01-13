@@ -110,7 +110,7 @@ The game is designed so that the player starts on a simple area, with a slow ene
 
 # Assets Used
 
-All sprites from craftpix.net
+All sprites from [craftpix.net](https://craftpix.net/)
 
 Audio:
 - 8Bit Music - 062022 by GWriterStudio https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623
